@@ -1,0 +1,312 @@
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+/* 顶部导航 */
+.topnav {
+    height: 40px;
+    background-color: #fff;
+    /* width: 980px;
+      padding: 0 5px;
+      margin: 0 auto;
+      position: relative;
+      line-height: 40px; */
+}
+
+
+/* 版心 因为版心公共样式 所以放在common.css */
+/* 顶部导航左边*/
+.left-one {
+    float: left;
+    width: 120px;
+    height: 40px;
+    background: url('../img/logo.png');
+
+}
+
+.left-two {
+    float: left;
+    height: 40px;
+}
+
+/* 1.1.2 顶部导航右边  */
+.topnav-right h3 {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.right-one {
+    color: #464646;
+    margin-left: 345px;
+    margin-right: 20px;
+}
+
+.right-two {
+    color: #464646;
+}
+
+/* 背景 */
+.caiwenji {
+    width: 100%;
+    /* height: 1440px; */
+    height: 420px;
+    /* background-repeat: no-repeat; */
+    background-image: url(../img/banben1.jpg);
+}
+
+.topnavapp {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.topnavapp-img {
+    margin-top: 16px;
+    width: 200px;
+    height: 54px;
+    float: left;
+}
+
+.topnavapp-lj {
+    float: left;
+    /* width: 730px; */
+    height: 84px;
+
+}
+
+.topnavapp-lj>a {
+    float: left;
+    color: #c9c9dd;
+    font-size: 18px;
+    /* padding: 20px 0; */
+    margin-left: 11px;
+    /* margin-left: 38px; */
+    width: 110px;
+    /* height: 64px; */
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.topnavapp:hover .topnavapp-lj-two {
+    height: 294px;
+    transition: all 0.4s;
+}
+
+.topnavapp-lj>a:hover {
+    color: #d9ad50;
+    border-bottom: 3px solid #d9ad50;
+}
+
+
+.topnavapp-lj-two {
+    position: absolute;
+    top: 84px;
+    left: -352px;
+    width: 1930px;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.topnavapp-lj-two li {
+    float: left;
+}
+
+
+
+
+.topnavapp-lj-two li a {
+    display: block;
+    padding: 18px 15px;
+    color: #c9c9dd;
+}
+
+.topnavapp-lj-two li a:hover {
+    color: #d9ad50;
+}
+
+.topnavapp-lj span {
+    font-size: 8px;
+}
+
+.topnavapp-dl {
+
+    /* padding: 20px 0; */
+    margin-top: 24px;
+}
+
+.topnavapp-dl-left {
+    float: left;
+    border: 1px solid #d9ad50;
+    border-radius: 42px;
+}
+
+.topnavapp-dl-right {
+    float: right;
+
+}
+
+.topnavapp-dl-right a {
+
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+
+.topnavapp-dl-right span {
+    color: #858792;
+    font-size: 12px;
+    /* line-height: 30px; */
+    display: block;
+    margin-top: -7px;
+}
+
+
+.mainnews {
+    padding-top: 450px;
+}
+
+
+/* 版本介绍 */
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.renew {
+    padding: 20px 0;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.renew s {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+    background: url(../img/renew.png) no-repeat -8px -80px;
+}
+
+.renew a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.renew em {
+    font-size: 14px;
+    padding: 0 4px;
+    vertical-align: middle;
+}
+
+.renew span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.container .lost {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.container .list li {
+    width: 100%;
+    height: 384px;
+    list-style: none;
+    background-color: #f3f3f3;
+    margin-bottom: 55px;
+}
+
+.banner {
+    position: relative;
+    display: block;
+    float: left;
+    width: 684px;
+    height: 384px;
+}
+
+.num {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 68px;
+    height: 67px;
+    background: url(../img/num.png) no-repeat top center;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.exp-con {
+    float: left;
+    width: 478px;
+    height: 344px;
+    margin-top: 24px;
+    margin-left: 38px;
+    line-height: 30px;
+}
+
+.exp-con h3 {
+    color: #6e6d87;
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.exp-con .tx {
+    font-size: 16px;
+    color: #6e6d87;
+}
+
+.refresh {
+    display: block;
+    color: #6e6d87;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.exp-list {
+    width: 100%;
+    height: 162px;
+}
+
+.exp-list img {
+    display: block;
+    float: left;
+    margin-top: 4px;
+}
+
+.exp-list div {
+    width: 330px;
+    height: 112px;
+    float: left;
+    margin-left: 7px;
+}
+
+.chakan {
+    display: block;
+    width: 126px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #efc45e;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}

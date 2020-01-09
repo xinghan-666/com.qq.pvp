@@ -1,0 +1,342 @@
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+/* 顶部导航 */
+.topnav {
+    height: 40px;
+    background-color: #fff;
+    /* width: 980px;
+      padding: 0 5px;
+      margin: 0 auto;
+      position: relative;
+      line-height: 40px; */
+}
+
+
+/* 版心 因为版心公共样式 所以放在common.css */
+/* 顶部导航左边*/
+.left-one {
+    float: left;
+    width: 120px;
+    height: 40px;
+    background: url('../img/logo.png');
+
+}
+
+.left-two {
+    float: left;
+    height: 40px;
+}
+
+/* 1.1.2 顶部导航右边  */
+.topnav-right h3 {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.right-one {
+    color: #464646;
+    margin-left: 345px;
+    margin-right: 20px;
+}
+
+.right-two {
+    color: #464646;
+}
+
+/* 背景 */
+.caiwenji {
+    width: 100%;
+    height: 2330px;
+    /* height: auto; */
+    background-repeat: no-repeat;
+    background-image: url(../img/monizhan1.jpg);
+    position: relative;
+    z-index: -10;
+}
+
+.topnavapp {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.topnavapp-img {
+    margin-top: 16px;
+    width: 200px;
+    height: 54px;
+    float: left;
+}
+
+.topnavapp-lj {
+    float: left;
+    /* width: 730px; */
+    height: 84px;
+
+}
+
+.topnavapp-lj>a {
+    float: left;
+    color: #c9c9dd;
+    font-size: 18px;
+    /* padding: 20px 0; */
+    margin-left: 11px;
+    /* margin-left: 38px; */
+    width: 110px;
+    /* height: 64px; */
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.topnavapp:hover .topnavapp-lj-two {
+    height: 294px;
+    transition: all 0.4s;
+}
+
+.topnavapp-lj>a:hover {
+    color: #d9ad50;
+    border-bottom: 3px solid #d9ad50;
+}
+
+
+.topnavapp-lj-two {
+    position: absolute;
+    top: 84px;
+    left: -352px;
+    width: 1930px;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.topnavapp-lj-two li {
+    float: left;
+}
+
+
+
+
+.topnavapp-lj-two li a {
+    display: block;
+    padding: 18px 15px;
+    color: #c9c9dd;
+}
+
+.topnavapp-lj-two li a:hover {
+    color: #d9ad50;
+}
+
+.topnavapp-lj span {
+    font-size: 8px;
+}
+
+.topnavapp-dl {
+
+    /* padding: 20px 0; */
+    margin-top: 24px;
+}
+
+.topnavapp-dl-left {
+    float: left;
+    border: 1px solid #d9ad50;
+    border-radius: 42px;
+}
+
+.topnavapp-dl-right {
+    float: right;
+
+}
+
+.topnavapp-dl-right a {
+
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+
+.topnavapp-dl-right span {
+    color: #858792;
+    font-size: 12px;
+    /* line-height: 30px; */
+    display: block;
+    margin-top: -7px;
+}
+
+
+.mainnews {
+    padding-top: 450px;
+}
+
+
+/* 模拟战 */
+.wrap-main {
+    width: 1262px;
+    display: block;
+    /* height: auto; */
+    /* height: 1000px; */
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/monizhan2.jpg);
+    height: 100%;
+    position: absolute;
+    left: 328px;
+    top: 0px;
+    z-index: -1;
+}
+
+.wrap-main .understand {
+    width: 183px;
+    height: 51px;
+    display: block;
+    position: absolute;
+    top: 130px;
+    right: -220px;
+    background: url(../img/monizhan3.png);
+    background-position: -261px -21px;
+
+}
+
+.details {
+    width: 1262px;
+    padding-top: 710px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+/* 导航 */
+.details .nav {
+    width: 1262px;
+    height: 40px;
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 50px;
+}
+
+.details .nav p {
+    width: 315.5px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #afafaf;
+    border-bottom: 3px solid #AFAFAF;
+    cursor: pointer;
+}
+
+.nav p.jiban {
+    color: #4e4d8f;
+    border-bottom: 3px solid #4e4d8f;
+}
+
+
+.main-box {
+    width: auto;
+    height: auto;
+}
+
+.border-cover {
+    border: 1px solid #4f4f97;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.table-box {
+    position: relative;
+    background: url(../img/table-box1.png) no-repeat top left;
+}
+
+.table-box1 {
+    position: relative;
+    background: url(../img/table-box2.png) no-repeat top left;
+}
+
+.table-name {
+    display: block;
+    writing-mode: vertical-lr;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 43.5px;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+table {
+    display: block;
+    width: 1128px;
+    height: 100%;
+    margin-left: 122px;
+    border-collapse: collapse;
+}
+
+.job td:nth-child(1) {
+    width: 121px;
+}
+
+.job td:nth-child(2) {
+    width: 485px;
+}
+
+.job td:nth-child(3) {
+    width: 521px;
+}
+
+
+.job td {
+    /* width: 121px; */
+    height: 60px;
+    text-align: left;
+    border: 1px solid #b0b0b0;
+    font-size: 16px;
+
+    background-color: #3d3c75;
+    color: white;
+    text-align: center !important;
+    box-sizing: border-box;
+}
+
+.text td {
+    height: 60px;
+    text-align: left;
+    border: 1px solid #b0b0b0;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.text td:nth-child(1) {
+    text-align: center !important;
+}
+
+/* 底部 */
+footer {
+    background-color: #090b1a;
+}
+
+.ieg {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ieg p {
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.ieg p a {
+    color: #fff;
+}

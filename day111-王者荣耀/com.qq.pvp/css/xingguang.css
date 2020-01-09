@@ -1,0 +1,165 @@
+html,
+body {
+    width: 100%;
+    background: #0d0e12;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper {
+    background: url(../img/wrapper.jpg) no-repeat center 0;
+    width: 100%;
+    height: 1080px;
+}
+
+.page {
+    background: url(../img/page1.jpg) no-repeat center 0;
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page .content {
+    background: url(../img/page2.jpg) no-repeat;
+    width: 1200px;
+    height: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page .logo-mod {
+    width: 294px;
+    height: 92px;
+    background: url(../img/xingguang.png) no-repeat 0px -655px;
+    background-size: 1025px 747px;
+    width: 294px;
+    height: 92px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.logo-mod a {
+    width: 180px;
+    height: 90px;
+    display: block;
+}
+
+.fixed {
+    width: 1008px;
+    position: absolute;
+    top: 890px;
+    left: 50%;
+    margin-left: -504px;
+    overflow: hidden;
+}
+
+.fixed .content {
+    height: 126px;
+    width: 1176px;
+}
+
+.fixed .content .item {
+    float: left;
+    width: 294px;
+    position: relative;
+}
+
+.fixed .content .item a {
+    display: block;
+    background: url(../img/xingguang.png) no-repeat -823px -318px;
+    background-size: 1025px 747px;
+    width: 127px;
+    height: 126px;
+    /* 
+    background: url(//game.gtimg.cn/images/yxzj/cp/a20190102starlight/sc_img_default.png) no-repeat -823px -318px;
+    background-size: 1025px 747px;
+    width: 127px;
+    height: 126px;
+    width: 127px;
+    height: 126px;
+    display: block; */
+}
+
+.fixed .content .item .active {
+    background: url(../img/xingguang.png) no-repeat -823px -182px;
+    background-size: 1025px 747px;
+    width: 127px;
+    height: 126px;
+}
+
+
+.fixed .content .item a:hover {
+    background: url(../img/xingguang.png) no-repeat -823px -182px;
+    background-size: 1025px 747px;
+    width: 127px;
+    height: 126px;
+
+}
+
+.item a span:hover {
+    text-shadow: none;
+    color: #4e2c27;
+}
+
+.item span {
+    padding-top: 40px;
+    /* padding-top: 50px; */
+    font-size: 20px;
+    line-height: 24px;
+    width: 40px;
+    margin: 0 auto;
+    display: block;
+    color: #f3d6b0;
+
+}
+
+.active {
+    padding-top: 10px;
+
+}
+
+.active span {
+    color: #000;
+}
+
+.item::after {
+    content: "";
+    width: 180px;
+    height: 22px;
+    background: url(../img/xingguang.png) no-repeat -823px -589px;
+    background-size: 1025px 747px;
+    width: 180px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -11px;
+}
+
+footer {
+    background-color: #090b1a;
+}
+
+.ieg {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ieg p {
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.ieg p a {
+    color: #fff;
+}

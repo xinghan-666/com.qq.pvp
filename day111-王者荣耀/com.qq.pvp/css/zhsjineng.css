@@ -1,0 +1,585 @@
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+/* 顶部导航 */
+.topnav {
+    height: 40px;
+    background-color: #fff;
+    /* width: 980px;
+      padding: 0 5px;
+      margin: 0 auto;
+      position: relative;
+      line-height: 40px; */
+}
+
+
+/* 版心 因为版心公共样式 所以放在common.css */
+/* 顶部导航左边*/
+.left-one {
+    float: left;
+    width: 120px;
+    height: 40px;
+    background: url('../img/logo.png');
+
+}
+
+.left-two {
+    float: left;
+    height: 40px;
+}
+
+/* 1.1.2 顶部导航右边  */
+.topnav-right h3 {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.right-one {
+    color: #464646;
+    margin-left: 345px;
+    margin-right: 20px;
+}
+
+.right-two {
+    color: #464646;
+}
+
+/* 背景 */
+.caiwenji {
+    width: 100%;
+    height: 1440px;
+    background-image: url(../img/caiwenji.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(red, green, blue, 0.5);
+
+}
+
+.topnavapp {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.topnavapp-img {
+    margin-top: 16px;
+    width: 200px;
+    height: 54px;
+    float: left;
+}
+
+.topnavapp-lj {
+    float: left;
+    /* width: 730px; */
+    height: 84px;
+
+}
+
+.topnavapp-lj>a {
+    float: left;
+    color: #c9c9dd;
+    font-size: 18px;
+    /* padding: 20px 0; */
+    margin-left: 11px;
+    /* margin-left: 38px; */
+    width: 110px;
+    /* height: 64px; */
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.topnavapp:hover .topnavapp-lj-two {
+    height: 294px;
+    transition: all 0.4s;
+}
+
+.topnavapp-lj>a:hover {
+    color: #d9ad50;
+    border-bottom: 3px solid #d9ad50;
+}
+
+
+.topnavapp-lj-two {
+    position: absolute;
+    top: 84px;
+    left: -352px;
+    width: 1920px;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.topnavapp-lj-two li {
+    float: left;
+}
+
+
+
+
+.topnavapp-lj-two li a {
+    display: block;
+    padding: 18px 15px;
+    color: #c9c9dd;
+}
+
+.topnavapp-lj-two li a:hover {
+    color: #d9ad50;
+}
+
+.topnavapp-lj span {
+    font-size: 8px;
+}
+
+.topnavapp-dl {
+
+    /* padding: 20px 0; */
+    margin-top: 24px;
+}
+
+.topnavapp-dl-left {
+    float: left;
+    border: 1px solid #d9ad50;
+    border-radius: 42px;
+}
+
+.topnavapp-dl-right {
+    float: right;
+
+}
+
+.topnavapp-dl-right a {
+
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+
+.topnavapp-dl-right span {
+    color: #858792;
+    font-size: 12px;
+    /* line-height: 30px; */
+    display: block;
+    margin-top: -7px;
+}
+
+
+.mainnews {
+    padding-top: 450px;
+}
+
+/* 3. 周免英雄和用户登录 */
+.content {
+    position: relative;
+    margin: 465px auto 0;
+    width: 1200px;
+    height: 115px;
+    background: url(../img/content.png) no-repeat;
+}
+
+.zhoumian {
+    float: left;
+    width: 732px;
+    padding: 8px 20px 0;
+    color: #a6afbc;
+    font: 14px/1.5 "Microsoft YaHei", Tahoma, "simsun", sans-serif;
+}
+
+.zhoumian p {
+    display: block;
+}
+
+.zhoumian ul {
+    margin-top: 8px;
+}
+
+.zhoumian li {
+    float: left;
+    /* display: inline; */
+    position: relative;
+    margin-right: 10px;
+    width: 69px;
+    /* overflow: hidden; */
+}
+
+.zhoumian li a {
+    width: 224px;
+    height: 69px;
+    display: block;
+    position: relative;
+}
+
+.zhoumian img {
+    display: block;
+    /* width: 69px; */
+    height: 69px;
+    border-radius: 5px;
+}
+
+/* .zhoumian img:nth-child(2n) {
+    display: block;
+    width: 224px;
+    height: 69px;
+} */
+.zhoumian img:nth-last-child() {
+    display: block;
+    width: 224px;
+    height: 69px;
+}
+
+.moreyx {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 455px;
+    line-height: 15px;
+    /* padding: 30px 10px 10px; */
+    color: #626a7a;
+}
+
+.moreyx:hover {
+    color: #2C88E2;
+}
+
+.denglu {
+    position: relative;
+    float: left;
+    width: 408px;
+    padding: 12px 10px;
+    /* background: url(../img/cao.png) no-repeat; */
+}
+
+.denglu .dengluone {
+    position: absolute;
+    display: block;
+    top: -5px;
+    left: 10px;
+    width: 106px;
+    height: 120px;
+    /* background-position: -110px -174px;
+    background: url(../img/cao.png) no-repeat; */
+}
+
+.denglu span {
+    display: block;
+    position: absolute;
+    top: 81px;
+    left: 68px;
+    width: 21px;
+    height: 20px;
+    padding-left: 3px;
+    background-position: -331px -105px;
+    color: #ffffff;
+    background: url(../img/cao.png) no-repeat;
+    /* background: url(../img/spr.png) no-repeat; */
+}
+
+.denglu img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin: 24px 0 0 15px;
+    border-radius: 10px;
+    /* background-position: -110px -174px;
+    background: url(../img/cao.png) no-repeat; */
+}
+
+.denglutwo {
+    float: left;
+    width: 300px;
+    margin-left: 115px;
+    margin-top: 32px;
+    color: #b3bbc5;
+}
+
+.denglutwo p {
+    float: left;
+    display: block;
+    color: #b3bbc5;
+    font-size: 14px;
+}
+
+.denglutwo a {
+    float: left;
+    color: #8ea0b0;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
+/* 4. 召唤师技能 */
+.jncontent {
+    width: 100%;
+    min-width: 1200px;
+    min-height: 620px;
+    height: auto;
+    margin: 0 auto;
+    background: url(../img/zoujin.jpg) no-repeat center top;
+}
+
+.jn-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.new-content {
+    padding-top: 40px;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 40px;
+    height: 20px;
+    line-height: 20px;
+    color: #464547;
+    font-size: 16px;
+
+}
+
+.title i {
+    float: left;
+    background: url(../img/jingling.png) no-repeat;
+    background-position: 0 -4px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+
+}
+
+.title a {
+    text-decoration: underline;
+}
+
+.title a,
+.title span {
+    margin-right: 8px;
+}
+
+.new-content h1 {
+    margin-top: 50px;
+    padding-left: 25px;
+    font: bold 20px/22px '\5FAE\8F6F\96C5\9ED1';
+    background: url(../img/icon-hero.png) no-repeat;
+}
+
+.new-content ul {
+    margin-top: 20px;
+    height: 32px;
+    font-size: 16px;
+    border-bottom: 3px solid #D4D4D4;
+    border-radius: 0 0 3px 3px;
+}
+
+.new-content ul li {
+    float: left;
+    width: 33%;
+    margin-bottom: -3px;
+    position: relative;
+}
+
+.new-content ul li a {
+    display: block;
+    width: 100%;
+    line-height: 32px;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+.new-content ul .cur {
+    border-bottom: 3px solid #3589DD;
+    border-radius: 0 0 3px 3px;
+}
+
+.new-content ul .cur a {
+    color: #3589DD;
+    font-weight: bold;
+}
+
+.herolist {
+    height: 500px;
+    margin-bottom: 50px;
+    padding: 35px 28px;
+    border: 2px solid #E8E8E8;
+    border-top: 0;
+    position: relative;
+}
+
+.herolist-types {
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    color: #686869;
+    background: none;
+}
+
+.herolist-types ul {
+    float: left;
+    width: 43%;
+    padding-left: 16px;
+    margin-right: 0;
+    border-right: 1px solid #F0F0F0;
+    padding: 30px 0 0;
+    margin-left: -14px;
+    position: relative;
+}
+
+.herolist-types ul li {
+    float: left;
+    width: 116px;
+    height: 120px;
+    margin-bottom: 22px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.herolist-types ul li img {
+    display: block;
+    margin: 0 auto 7px;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px 0 10px 0;
+    border: 3px solid #1E84E7;
+}
+
+.herolist-types .spell {
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.spell-title {
+    overflow: hidden;
+}
+
+.spell-title img {
+    float: left;
+    margin-right: 20px;
+}
+
+.spell-title h4 {
+    float: left;
+    width: 60%;
+    font-size: 16px;
+    color: #00A383;
+    line-height: 30px;
+}
+
+.spell-title p {
+    float: left;
+    width: 60%;
+    color: #9A9A9A;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.spell-cd {
+    padding: 20px 0;
+    line-height: 18px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* 5. 版权 */
+.copyright {
+    position: relative;
+    z-index: 2;
+    height: 282px;
+    background: url(../img/buttom.jpg) no-repeat center 0;
+}
+
+.copyright {
+    padding-top: 80px;
+}
+
+.copyright-top {
+    display: block;
+    float: none;
+    height: 66px;
+    padding-bottom: 10px;
+    margin-bottom: 32px;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.copyright-top-left {
+    float: left;
+    width: 285px;
+    height: 64px;
+    margin: 0;
+    background: url(../img/buttom-logo.png) no-repeat;
+}
+
+.copyright-top-right {
+    float: left;
+    width: 70px;
+    height: 64px;
+    margin: 0;
+    background: url(../img/buttom-logo.png) no-repeat -285px 0;
+}
+
+.copyright-buttom-left {
+    float: left;
+    width: 508px;
+    font-size: 12px;
+    color: #666;
+}
+
+.buttom-one {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buttom-two {
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.buttom-three {}
+
+.copyright-buttom-left em {
+    font-style: normal;
+    margin-right: 12px;
+    color: #6d6d6d;
+}
+
+.copyright-buttom-right {
+    float: right;
+    width: 560px;
+    height: 100%;
+    margin-top: 0;
+}
+
+.copyright-buttom-right>p {
+    margin-top: 5px;
+}
+
+.copyright-buttom-right>p:first-child {
+    margin-top: 20px;
+}
+
+.copyright-buttom-right>div {
+    height: 100%;
+
+    margin-top: 10px;
+}
+
+.copyright-buttom-right>div>p:first-child {
+    float: left;
+}
+
+.copyright-buttom-right>div>p:nth-child(2) {
+    float: right;
+}
